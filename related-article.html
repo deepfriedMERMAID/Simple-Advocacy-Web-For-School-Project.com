@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>related article</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white!important;
+}
+
+header { 
+  top: 75%;
+  align-self: right;
+  margin-right: 50px;
+  
+}
+
+nav {
+  width: 220px;
+  padding: 20px;
+  text-align: center;
+  margin: 5px!important;
+  border-radius: 25px!important;
+  font-weight: bold;
+  background: transparent;
+  color: #fff!important;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.oofnavbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 50px;
+  width: 100%;
+  background-color: #f1f1f1;
+  background: transparent;
+
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+.bruhbanner {
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(img/background.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.oofnavbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+.oofnavbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.oofnavbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.oofnavbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #03f38f;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.7s;
+}
+.oofnavbar ul li:hover:after {
+    width: 100%;
+}.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  .footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  
+  
+</style>
+</head>
+<body class="bruhbanner">
+    
+    <div class="oofbanner">
+        <div class="oofnavbar">
+            <img src="img/logo.jpg" class="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about-us.html">ABOUT US</a></li>
+
+            </ul>
+        </div> 
+        <div style="text-align:center">
+            <h2>5 ARTICLES RELATED TO FOREST PROTECTION</h2>
+               <p>Here are some of the most interesting articles related to forest protection.</p>
+           </div>
+<header>
+
+  <img align="right" src="img/3.jpg" alt="" width="1000" height="550">
+ 
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://www.sciencedirect.com/topics/earth-and-planetary-sciences/forest-protection"><span></span> 1. Conditions for Effective Community Forest Management in Thua Thien Hue Province</a></li>
+      <li><a href="https://pidswebs.pids.gov.ph/CDN/PUBLICATIONS/pidsdps1853.pdf"><span></span>2.Forest Protection in the Philippines</a></li>
+      <li><a href="https://youmatter.world/en/forest-protection-important-help-28321/"><span></span>3.Why Are Forests So Important And What Can You Do To Protect Them?</a></li>
+      <li><a href="https://www.frontiersin.org/articles/10.3389/ffgc.2019.00062/full"><span></span>4.Conserving the Last Great Forests: A Meta-Analysis Review of the Drivers of Intact Forest Loss and the Strategies and Policies to Save Them</a></li>
+      <li><a href="https://www.weforum.org/agenda/2021/03/deforestation-biodiversity-protect-international-day/"><span></span>5.8 reasons we need to protect our forests</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>PRASANA'S ESSAY ON FOREST</h1>
+    <p>Forests are rightly called as the lungs of the earth. They are the most important part of our ecosystem and are pivotal in maintaining the balance in the food cycle and the natural equilibrium on the planet. Forests cover almost 31% of the surface of the earth. They are a habitat for not only wildlife and trees but also to some of the rarest of rare animals and plants on earth.</p>
+    <p>Man has been using the resources of forests for thousands of years. As much as the forest has provided man with his livelihood, man has not given back to the forest as much as he should have. And this overuse, imbalance and greed of man have led to a disturbance in the natural cycle of the earth.</p>
+  </article>
+</section>
+
+<body>
+    <head class="body">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Untitled</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    </head>    
+    <div class="footer-basic">
+      <footer>
+          <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/juvel.rivera.3"><i class="icon ion-social-facebook"></i></a>
+          </div>
+          <ul class="list-inline">
+              <h1><a href="#">TEAM BEHIND THIS PROJECT</a></h1>
+              <li><a href="#">Juvel G. Rivera</a></li>
+              <li><a href="#">Jim Dale M. De Guzman</a></li>
+              <li><a href="#">Dexter John Pequit</a></li>
+                <li><a href="#">Pop Jhonlery F. Relleta</a></li>
+          </ul>
+            <p class="copyright">Bukidnon State University © 2022</p>
+     
+      </footer>
+    </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</body>
+</html>
+

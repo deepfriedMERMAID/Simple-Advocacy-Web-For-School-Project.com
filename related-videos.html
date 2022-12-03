@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Related video page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white!important;
+}
+
+header { 
+  top: 75%;
+  align-self: right;
+  margin-right: 50px;
+  
+}
+
+nav {
+  width: 220px;
+  padding: 20px;
+  text-align: center;
+  margin: 5px!important;
+  border-radius: 25px!important;
+  font-weight: bold;
+  background: transparent;
+  color: #fff!important;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  
+}
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+   align-items: flex-end;
+}
+.oofnavbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: right;
+  padding: 50px;
+  width: 100%;
+  background-color: #f1f1f1;
+  background: transparent;
+
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+.bruhbanner {
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(img/background.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.oofnavbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+.oofnavbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.oofnavbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.oofnavbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #03f38f;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.7s;
+}
+.oofnavbar ul li:hover:after {
+    width: 100%;
+}.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  .footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  
+  
+</style>
+</head>
+<body class="bruhbanner">
+    
+    <div class="oofbanner">
+        <div class="oofnavbar">
+            <img src="img/logo.jpg" class="logo">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about-us.html">ABOUT US</a></li>
+
+            </ul>
+        </div> 
+        <div style="text-align:center">
+            <h2>6 VIDEOS RELATED TO FOREST PROTECTION</h2>
+               <p>The video in front is a sneak-peek of the forest's unique beauty.</p>
+           </div>
+<header>
+    <iframe align="right" width="950" height="550" src="https://www.youtube.com/embed/GC-iPDk0mTw">
+    </iframe>
+    
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=_dWJVHIE9S8"><span></span> 1. The Importance of forest| How to Protect forests</a></li>
+      <li><a href="https://www.youtube.com/watch?v=BZvE25UGQxE"><span></span>2.Why do we Protect Forests?</a></li>
+      <li><a href="https://www.youtube.com/watch?v=Ig9Tfc_hNsE"><span></span>3.How to save our Forests and rewild them.</a></li>
+      <li><a href="https://www.youtube.com/watch?v=gTKzoMuW-s4"><span></span>4.How can we help prtect the rainforests?</a></li>
+      <li><a href="https://www.youtube.com/watch?v=uC6CvYxQCwc"><span></span>5.Lets protect our forest</a></li>
+      <li><a href="https://www.youtube.com/watch?v=lKny-qERI-E"><span></span>6.Bitesize Guide: Living Planet Report 2022 | WWF</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>WHAT IS CONSERVATION OF NATURE?</h1>
+    <p>Conservation of nature means the preservation of forests, land, water bodies, and minerals, fuels, natural gases, etc. And to make sure that all these continue to be available in abundance. Thus all these natural resources make life worth living on Earth. Life would not be imaginable without air, water, sunlight as well as other natural resources present on the earth.</p>
+    <h>ONE EXAMPLE OF CONSERVING NATURAL RESOURCES IS TO USE NEWER AGRICULTURAL METHODS</h>
+    <p>The government must aware the methods such as mixed cropping, crop rotation. Also, the government should teach the minimum use of pesticides, insecticides. Appropriate use of manures, bio-fertilizers, and organic fertilizers to the farmers.
+</section>
+
+<body>
+    <head class="body">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Untitled</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    </head>    
+    <div class="footer-basic">
+      <footer>
+          <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/juvel.rivera.3"><i class="icon ion-social-facebook"></i></a>
+          </div>
+          <ul class="list-inline">
+              <h1><a href="#">TEAM BEHIND THIS PROJECT</a></h1>
+              <li><a href="#">Juvel G. Rivera</a></li>
+              <li><a href="#">Jim Dale M. De Guzman</a></li>
+              <li><a href="#">Dexter John Pequit</a></li>
+                <li><a href="#">Pop Jhonlery F. Relleta</a></li>
+          </ul>
+            <p class="copyright">Bukidnon State University © 2022</p>
+     
+      </footer>
+    </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</body>
+</html>
+
